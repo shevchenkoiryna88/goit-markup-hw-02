@@ -1,0 +1,155 @@
+
+
+
+body {
+    font-family:var(--primary-font) ;
+    color: var(--primary-black-color);
+    font-size: 14px;
+    background-color:var(--primary-white-color);
+    line-height: 1.5;
+    
+}
+
+
+/* CSS змінні. Оголошення змінної */
+
+:root 
+        {
+            --primary-font: "Poppins", sans-serif;
+            --title-font: "Oswald", sans-serif;
+            --primary-black-color: #212121;
+            --primary-white-color: #ffffff;
+            --primary-accent-color: #03a9f4;
+            --secondary-accent-color: #0288d1;
+            --active-link-color: #f44336;
+        }
+
+/* Глобaльные стили */
+
+h1,h2,h3,h4,h5,h6 
+{    
+    font-family: var(--title-font)
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1{color: orange;}
+p{color: cyan;}
+a{color: rgb(0, 0, 0);}
+header{background-color: rgb(245, 245, 245);}
+
+a{color: #f5f5f5;}
+header{background-color: #212121;}
+nav{background-color: rgba(0, 0, 255, 0.3);}
+
+
+span{h1 {
+        color: #f44336;
+    }}
+h1{color: #f44336;}
+h2{color: #3f51b5;}
+h3{color: #4caf50;}
+h4{color: #ffc107;}
+
+#clubs є властивість color зі значенням #9c27b0
+
+#clubs{color: #9c27b0;}
+
+.page-header{background-color:#bdbdbd ;} 
+.page-title{color:#f44336 ;}  
+.section-title{color: #3f51b5 ;} 
+.section-text{color:#ff5722 ;}
+.page-footer { background-color:var(--primary-black-color);} 
+.copyright-text{color:var(--primary-white-color);} 
+
+.page-nav .link {color:var(--primary-accent-color);}
+.page-nav .link:hover,.page-nav .link:focus 
+{
+    color: var(--secondary-accent-color);
+}
+
+.page-nav .link:active {
+    color: var(--active-link-color);
+}
+
+
+.club-list .title{color: #4caf50;}
+.club-list .text{color: #009688;} 
+.club-list .link{color: #ffc107}
+.downloads .link{color: #aeea00;} 
+
+
+.benefits>li{color: #d500f9;} 
+
+/* Посилання всередині page-nav змінюють колір на #18ffff */
+.page-nav .link:hover{color:var#18ffff ;} 
+
+/* Посилання всередині club-list змінюють колір на #f57f17 */
+.club-list .link:hover{color: #f57f17;} 
+
+/* Посилання всередині downloads змінюють колір на #2e7d32 */
+.downloads .link:hover{color: #2e7d32;} 
+
+
+
+/* Посилання всередині page-nav змінюють колір на #212121 */
+
+
+
+/* Посилання всередині club-list змінюють колір на #ff1744 */
+
+.club-list .link:active{color: #ff1744;}
+
+/* Посилання всередині downloads змінюють колір на #00e676 */
+
+.downloads .link:active{color:#00e676 ;}
+
+
+
+/* При навігації з клавіатури посилання повинні змінювати колір: */
+Посилання всередині page-nav змінюють колір на #18ffff
+.page-nav .link:focus{color: #18ffff;}
+
+Посилання всередині club-list змінюють колір на #f57f17
+.club-list .link:focus{color: #f57f17;}
+
+Посилання всередині downloads змінюють колір на #2e7d32
+.downloads .link:focus{color: #2e7d32;}
+.downloads .link:hover, .downloads .link:focus{color: #2e7d32;}
+
+.page-title 
+{
+    font-family: Georgia, serif;
+    color: #f44336;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.333;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #212121;
+    
+}
+
+Посилання в блоці навігації в хедері та списку клубів мають бути без підкреслення.
+У CSS правилі з селектором .page-nav .link є властивість text-decoration зі значенням none
+.page-nav .link{text-decoration: none;
+text-transform: uppercase;}
+
+
+
+
+
+.downloads .plan-name{color: #ff1744;}
+
+
+.discount-badge{text-transform: uppercase;} є властивість text-transform зі значенням uppercase
+
+.discount-badge{text-align: center;
+    background-color:#212121;
+color: #ffffff;} 
+
+
