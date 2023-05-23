@@ -147,7 +147,7 @@ color: #ffffff;}
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
@@ -157,7 +157,7 @@ color: #ffffff;}
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
@@ -181,7 +181,7 @@ color: #ffffff;}
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        align-items: center;
+        
         text-align: center;
         letter-spacing: 0.04em;
         cursor: pointer;}
