@@ -4,8 +4,7 @@ body {
     background-color: var(--white-background-color);
     letter-spacing: 0.02em;
     font-style: normal;
-    line-height: 24px;
-}
+    line-height: 24px;}
 
 /* CSS змінні */
 :root {
@@ -146,8 +145,7 @@ color: #ffffff;}
     color: var(--primary-barand-color);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    
+    line-height: 1.17;    
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
@@ -156,8 +154,7 @@ color: #ffffff;}
     color: var(--light-color);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    
+    line-height: 1.17;    
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
@@ -170,18 +167,14 @@ color: #ffffff;}
 
     /* PORTFOLIO */
 
-    .portfolio-list{}
-
-    .portfolio-list-items-buttons
 
     .porfolio-button{
-        font-family: "Roboto", sans-serif;
+        font-family: 'Roboto';
         background-color: var(--light-color);
         color: var(--primary-barand-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;
-        
+        line-height: 1.5;        
         text-align: center;
         letter-spacing: 0.04em;
         cursor: pointer;}
