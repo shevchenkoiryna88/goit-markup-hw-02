@@ -25,11 +25,6 @@ body {
 
 /* Header Style */
 
-
-
-
-.page-header 
-
 .logo{font-family: "Raleway",sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -38,41 +33,50 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-barand-color);}
 
-.logo.link {text-decoration: none;}
+.link {text-decoration: none;} 
+.list {list-style: none;}
 
-
-
-.page-logo-span{
-    color: var(--hero-background-color);
-
-}
-.page-nav-list
-
-.page-nav-list.list{list-style: none;}
+.page-logo-span{color: var(--hero-background-color);}
 
 .page-nav-link {font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--hero-background-color);
-}
-.page-nav-link.link{text-decoration: none;}
+color: var(--hero-background-color);}
 
 .page-nav-link:hover{color: var(--pressed-state-color);}
 .page-nav-link:focus{color: var(--pressed-state-color);}
 
-
 .adress{font-style: normal;}
-
-.adress-list{list-style: none;}
 
 .adress-link{font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--body-text-color);}
 
-.adress-link.link{}
-
 .adress-link:hover{color: var(--pressed-state-color);}
 .adress-link:focus{color: var(--pressed-state-color);}
 
+
+/* Section 1 Hero */
+
+.hero{background-color:var(--navy-blue-color)}
+.hero-titel{font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;}
+
+.hero-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background-color);
+    cursor: pointer;}
+
+
+.hero-button:hover {background-color: var(--pressed-state-color);}
+.hero-button:focus {background-color: var(--pressed-state-color);}
