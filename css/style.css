@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text-color);
+    background-color: var(--white-background-color);
+    letter-spacing: 0.02em;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* CSS змінні */
+:root {
+    --primary-barand-color: #4d5ae5;
+    --pressed-state-color: #404bbf;
+    --navy-blue-color: #2e2f42;
+    --success-color: #31d0aa;
+    --body-text-color: #434455;
+    --subtle-text-color: #8e8f99;
+    --accent-color: #e7e9fc;
+    --light-color: #f4f4fd;
+    --modal-overlay-color: #2e2f42;
+    --hero-background-color: #2e2f42;
+    --white-background-color: #ffffff;
+    --modal-background-color: #fcfcfc;}
+
+
+/* Header Style */
+
+
+
+
+.page-header 
+
+.logo{font-family: "Raleway",sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-barand-color);}
+
+.logo.link {text-decoration: none;}
+
+
+
+.page-logo-span{
+    color: var(--hero-background-color);
+
+}
+.page-nav-list
+
+.page-nav-list.list{list-style: none;}
+
+.page-nav-link {font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--hero-background-color);
+}
+.page-nav-link.link{text-decoration: none;}
+
+.page-nav-link:hover{color: var(--pressed-state-color);}
+.page-nav-link:focus{color: var(--pressed-state-color);}
+
+
+.adress{font-style: normal;}
+
+.adress-list{list-style: none;}
+
+.adress-link{font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-text-color);}
+
+.adress-link.link{}
+
+.adress-link:hover{color: var(--pressed-state-color);}
+.adress-link:focus{color: var(--pressed-state-color);}
+
