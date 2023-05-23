@@ -29,6 +29,7 @@ ol {
 
 a {
     text-decoration: none;
+    cursor: pointer;
     /* color: inherit; */
 }
 
@@ -44,10 +45,12 @@ a {
 }
 
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--navy-blue-color);
-  background-color: #e5e5e5;
+  background-color: var(--white-background-color);
   letter-spacing: 0.02em;
+  font-style: normal;
+  line-height: 24px;
 }
 
 /* CSS змінні */
@@ -91,16 +94,13 @@ body {
 /* Header Style */
 
 .header-nav {
-  background-color: var(--white-background-color);
-  
-}
+  background-color: var(--white-background-color);}
 
 .header-nav a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  
+  color: var(--navy-blue-color);
 }
 
 .header-nav a:hover{color: var(--pressed-state-color);}
@@ -119,12 +119,11 @@ body {
 }
 
 .nav-adress {
-  background-color: var(--white-background-color);
-}
+  background-color: var(--white-background-color);}
+
 .nav-adress a {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: var(--body-text-color);
 }
 
@@ -145,7 +144,6 @@ body {
 
 .hero-button 
     { 
-        position:
         width: 169px;
         height: 56px;
         left: 636px;
@@ -155,10 +153,89 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        
     }
 
-    .hero-button:hover{
+    
+.hero-button:hover{
         background-color: var(--pressed-state-color);
         color: var(--white-background-color);}
 
+.section-2 h3
+{ font-weight: 500;
+  font-size: 20px;}
 
+.section-2 p
+{   font-weight: 400;
+    font-size: 16px;
+    color: var(--body-text-color);}
+
+.section-3 h2
+{   font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;}
+
+.section-3 img
+{   width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 1128px;}
+
+
+.section-4
+{background-color: #f4f4fd;}
+
+.section-4 h2 
+{   font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;}
+
+.section-4 img 
+{   width: 264px;
+    height: 260px;}
+
+.section-4 h3 
+{   font-weight: 500;
+    font-size: 20px;}
+
+.section-4 p 
+{   font-weight: 400;
+    font-size: 16px;
+    color: var(--body-text-color);}
+
+.footer {background-color: var(--hero-background-color);}
+
+.footer p
+{ font-weight: 400;
+  font-size: 16px;
+  color: var(--light-color);}
+
+.footer a{color: var(--light-color);}
+
+/* PORTFOLIO */
+
+.section-5 button{
+  background-color: var(--light-color);
+  color: var(--primary-barand-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;}
+
+  .section-5 button:hover{
+    background-color: var(--pressed-state-color);
+      color: var(--white-background-color);}
+  
+  .section-5 img{
+    width: 360px;
+    height: 300px;}
+
+  .section-5 h2{
+    font-weight: 500;
+    font-size: 20px;}
+
+  .section-5 p{
+    font-weight: 400;
+      font-size: 16px;
+      color: var(--body-text-color);}
