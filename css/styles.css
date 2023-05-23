@@ -46,7 +46,7 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--navy-blue-color);
+  color: var(--body-text-color);
   background-color: var(--white-background-color);
   letter-spacing: 0.02em;
   font-style: normal;
@@ -56,40 +56,17 @@ body {
 /* CSS змінні */
 :root {
   --primary-barand-color: #4d5ae5;
-}
-:root {
   --pressed-state-color: #404bbf;
-}
-:root {
   --navy-blue-color: #2e2f42;
-}
-:root {
   --success-color: #31d0aa;
-}
-:root {
   --body-text-color: #434455;
-}
-:root {
   --subtle-text-color: #8e8f99;
-}
-:root {
   --accent-color: #e7e9fc;
-}
-:root {
   --light-color: #f4f4fd;
-}
-:root {
   --modal-overlay-color: #2e2f42;
-}
-:root {
   --hero-background-color: #2e2f42;
-}
-:root {
   --white-background-color: #ffffff;
-}
-:root {
-  --modal-background-color: #fcfcfc;
-}
+  --modal-background-color: #fcfcfc;}
 
 /* Header Style */
 
@@ -105,29 +82,54 @@ body {
 
 .header-nav a:hover{color: var(--pressed-state-color);}
 
+/* new */
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
-  align-items: center;
-  letter-spacing: 0.03em;
-}
+  line-height: 1.17;
+  letter-spacing: 0.03em;  
+  text-transform: uppercase;
+  color: var(--primary-barand-color);}
+
+.logo > link{text-decoration: none;}
 
 .logo-span {
-  color: var(--primary-barand-color);
+  color: var(--hero-background-color)
 }
+
+.nav-list {list-style: none;}
+.nav-list-link{font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--hero-background-color);
+}
+.nav-list-link:hover{color: var(--pressed-state-color);}
+.nav-list-link:focus:focus{color: var(--pressed-state-color);}
+
 
 .nav-adress {
-  background-color: var(--white-background-color);}
+  background-color: var(--navy-blue-color);}
 
-.nav-adress a {
-  font-weight: 500;
-  font-size: 16px;
-  color: var(--body-text-color);
+.nav-adress-list {
+  list-style: none;}
+
+.nav-adress-list-link{
+      line-height: 1.5;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      color: var(--body-text-color);
 }
+  
+.nav-adress-list-link:hover{color: var(--pressed-state-color);}
+.nav-adress-list-link:focus{color: var(--pressed-state-color);}
 
-.nav-adress a:hover{color: var(--pressed-state-color);}
+
+
+
+
+
 
 .hero {background-color: var(--hero-background-color);}
 
