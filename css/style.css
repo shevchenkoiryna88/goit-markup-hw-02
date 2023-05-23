@@ -135,3 +135,71 @@ color: #ffffff;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+
+
+    /* FOOTER */
+
+.footer{background-color: var(--hero-background-color);}
+
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    color: var(--primary-barand-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.footer-logo-span{
+    font-family: "Raleway", sans-serif;
+    color: var(--light-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.footer-text{
+    color: var(--light-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+    /* PORTFOLIO */
+
+    .portfolio-list{}
+
+    .portfolio-list-items-buttons
+
+    .porfolio-button{
+        font-family: "Roboto", sans-serif;
+        background-color: var(--light-color);
+        color: var(--primary-barand-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        cursor: pointer;}
+    
+    .porfolio-button:hover{background-color: var(--pressed-state-color);}
+    .porfolio-button:focus{background-color: var(--pressed-state-color);}
+    .porfolio-button:hover{color: var(--white-background-color);}
+    .porfolio-button:focus{color: var(--white-background-color);}
+    
+    .porfolio-titel{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue-color);}
+
+    .portfolio-text{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--body-text-color);}
