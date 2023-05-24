@@ -81,14 +81,14 @@ color: #ffffff;}
 .hero-button:focus {background-color: var(--pressed-state-color);}
 
 /* Section 2 */
-.section2-titel{
+.section-two-titel{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color)}
 
-.section2-text{
+.section-two-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -99,7 +99,7 @@ color: #ffffff;}
 /* < !-- Section 3 What are we doing --> */
 
 
-.section3-titel{
+.section-three-titel{
     color: var(--navy-blue-color);
     font-size: 36px;
     line-height: 1.11;
@@ -109,11 +109,11 @@ color: #ffffff;}
 
 /* Section 4 Our Team */
 
-.section4{background-color: var(--light-color);}
+.section-four{background-color: var(--light-color);}
 
-.section4-li{background-color: var(--white-background-color);}
+.section-four-li{background-color: var(--white-background-color);}
 
-.section4-titel-h2{
+.section-four-titel-h2{
     color: var(--hero-background-color);
     font-size: 36px;
     line-height: 1.11;
@@ -121,14 +121,14 @@ color: #ffffff;}
     letter-spacing: 0.02em;
     text-transform: capitalize;}
 
-.section4-titel-h3{
+.section-four-titel-h3{
     font-weight: 500;
     color: var(--hero-background-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;}
 
-.section4-text{
+.section-four-text{
     color: var(--body-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -169,7 +169,7 @@ color: #ffffff;}
 
 
     .porfolio-button{
-        font-family: 'Roboto';
+        font-family: "Roboto", sans-serif;
         background-color: var(--light-color);
         color: var(--primary-barand-color);
         font-weight: 500;
