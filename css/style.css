@@ -113,7 +113,7 @@ color: #ffffff;}
 
 .section-four-li{background-color: var(--white-background-color);}
 
-.section-four-titel-h2{
+.section-four-titel-h-two{
     color: var(--hero-background-color);
     font-size: 36px;
     line-height: 1.11;
@@ -121,7 +121,7 @@ color: #ffffff;}
     letter-spacing: 0.02em;
     text-transform: capitalize;}
 
-.section-four-titel-h3{
+.section-four-titel-h-three{
     font-weight: 500;
     color: var(--hero-background-color);
     font-size: 20px;
